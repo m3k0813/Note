@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/writeButton"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="작성" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:text="취소" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <EditText
+            android:id="@+id/titleInput"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="제목"
+            android:maxLength="100"
+            android:gravity="top"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <EditText
+            android:id="@+id/contextInput"
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="내용"
+            android:maxLength="200"
+            android:gravity="top"/>
+    </LinearLayout>
+
+</LinearLayout>
